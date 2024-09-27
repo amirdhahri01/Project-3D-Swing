@@ -18,6 +18,7 @@ html {
     justify-content: center;
     align-items: center;
     perspective: 150rem;
+    overflow: hidden;
 }
 
 .swing {
@@ -28,6 +29,11 @@ html {
     transform: rotateX(70deg) rotateZ(-40deg) rotateY(5deg);
     transform-style: preserve-3d;
     top: 50%;
+    transform-origin: top;
+}
+
+.swing-1 {
+    animation: swingAnim 20s infinite ease-in-out;
 }
 
 @keyframes swingAnim {
@@ -60,7 +66,8 @@ html {
     70% {
         transform: rotateX(70deg) rotateZ(-40deg) rotateY(5deg) translateY(-84rem);
     }
-    100%{
+
+    100% {
         transform: rotateX(70deg) rotateZ(-40deg) rotateY(5deg) translateY(-800rem);
     }
 }
