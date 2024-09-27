@@ -119,3 +119,13 @@ html {
     transform-origin: bottom;
     background-color: white;
 }
+.rope::after{
+    content: "";
+    width: 0.3rem;
+    height: 23rem;
+    background-color: red;
+    position: absolute;
+    transform: translateY(-23rem) rotateZ(-21deg);
+    transform-origin: bottom;
+    background-color: white;
+}
