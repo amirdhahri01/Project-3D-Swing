@@ -27,7 +27,8 @@ html {
     transform: rotateX(70deg) rotateZ(-40deg) rotateY(5deg);
     transform-style: preserve-3d;
 }
-.swing::before{
+
+.swing::before {
     content: "";
     width: 1rem;
     height: 100%;
@@ -36,7 +37,8 @@ html {
     transform: rotateY(90deg);
     transform-origin: left;
 }
-.swing::after{
+
+.swing::after {
     content: "";
     height: 1rem;
     width: 100%;
@@ -46,26 +48,31 @@ html {
     transform: rotateX(90deg);
     transform-origin: bottom;
 }
-.circle{
+
+.circle {
     width: 3rem;
     height: 3rem;
     background-color: #c5c757;
     border-radius: 50%;
     position: absolute;
 }
-.circle-1{
+
+.circle-1 {
     top: 1rem;
     left: 1rem;
 }
-.circle-2{
+
+.circle-2 {
     right: 1rem;
     top: 1rem;
 }
-.circle-3{
+
+.circle-3 {
     right: 1rem;
     bottom: 1rem;
 }
-.circle-4{
+
+.circle-4 {
     left: 1rem;
     bottom: 1rem;
 }
