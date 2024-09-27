@@ -108,7 +108,7 @@ html {
     }
 
     50% {
-        transform: rotateX(70deg) rotateZ(-40deg) rotateY(5deg) translateY(30rem);
+        transform: rotateX(70deg) rotateZ(-40deg) rotateY(5deg) translateY(10rem);
     }
 
     100% {
